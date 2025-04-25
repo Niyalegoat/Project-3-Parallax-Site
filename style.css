@@ -1,0 +1,74 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+    color: #666;
+}
+
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This creates the parallax effect */
+    height: 100%;
+}
+
+.pimg1 {
+    background-image: url('img/autumn_background.jpg');
+}
+
+.pimg2 {
+    background-image: url('img/autumn_midground.jpg');
+}
+
+/* We'll add a third parallax image section later */
+.pimg3 {
+    background-image: url('img/autumn_foreground.jpg');
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    border: 5px solid #f7f7f7;
+}
+
+.ptext .border.trans {
+    background-color: transparent;
+}
+
+.section {
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
